@@ -1,0 +1,17 @@
+FROM r-base
+
+WORKDIR /usr/src/app
+
+RUN set -ex; \
+    \
+    apt-get update \
+    && apt-get install -y \
+      git \
+      libgdal-dev \
+      libproj-dev \
+      libgeos-dev \
+    ; \
+    git clone https://github.com/mapc/rental-listing-cleaner . \
+    ; \
+    echo 'install.packages(c("rgdal", "stringdist", "reshape2", "stringr", "plyr", "ngram", "sp", "raster", "foreign", "ggplot2"))' >> install-packages.R \
+    && Rscript install-packages.R

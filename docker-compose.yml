@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+
+  cleaner:
+    build:
+      context: .
+      dockerfile: Dockerfile.cleaner
+
+    volumes:
+      - ./volumes/csv/:/opt/files
+      - ./volumes/output:/opt/output
+      - ./volumes/spatial:/opt/spatial
+
+    command: ["Rscript", "main.R"]
+
+    environment:
+      - CODE_PATH=/usr/src/app
+      - SPATIAL_SRC_PATH=/opt/spatial
+      - OUT_FILE_PATH=/opt/output
+      - IN_FILE_PATH=/opt/files
+      - IN_FILE_NAME=mapped.csv
+      - IN_GEO_NAME=170726_padmapper_sample_2.csv
+
+
+  mapper:
+    build:
+      context: .
+      dockerfile: Dockerfile.mapper
+
+    volumes:
+      - ./volumes/csv:/opt/files
+
+    command: ["./map"]
+
+    environment:
+      - OUT_FILE_PATH=/opt/files
+      - OUT_FILE_NAME=mapped.csv

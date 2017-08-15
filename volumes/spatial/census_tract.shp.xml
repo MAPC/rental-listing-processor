@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+				<pubdate>2010</pubdate>
+				<title>TIGER/Line Shapefile, 2010, 2010 state, Massachusetts, 2010 Census  Census Tract State-based</title>
+				<edition>2010</edition>
+				<geoform>vector digital data</geoform>
+				<onlink>http://www.census.gov/geo/www/tiger</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  Census tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program.  The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate.  The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses.  Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people.  When first delineated, census tracts were designed to be homogeneous with respect to population characteristics, economic status, and living conditions.  The spatial size of census tracts varies widely depending on the density of settlement.  Physical changes in street patterns caused by highway construction, new development, and so forth, may require boundary revisions.  In addition, census tracts occasionally are split due to population growth, or combined as a result of substantial population decline.  Census tract boundaries generally follow visible and identifiable features.  They may follow legal boundaries such as minor civil division (MCD) or incorporated place boundaries in some States and situations to allow for census tract-to-governmental unit relationships where the governmental boundaries tend to remain unchanged between censuses.  State and county boundaries always are census tract boundaries in the standard census geographic hierarchy.  In a few rare instances, a census tract may consist of noncontiguous areas.  These noncontiguous areas may occur where the census tracts are coextensive with all or parts of legal entities that are themselves noncontiguous.  For the 2010 Census, the census tract code range of 9400 through 9499 was enforced for census tracts that include a majority American Indian population according to Census 2000 data and/or their area was primarily covered by federally recognized American Indian reservations and/or off-reservation trust lands; the code range 9800 through 9899 was enforced for those census tracts that contained little or no population and represented a relatively large special land use area such as a National Park, military installation, or a business/industrial park; and the code range 9900 through 9998 was enforced for those census tracts that contained only water area, no land area.  
+</abstract>
+			<purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+			<Subject_Entity>Massachusetts(25)</Subject_Entity>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>201001</begdate>
+					<enddate>201007</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>Publication Date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-73.508142</westbc>
+				<eastbc>-69.858861</eastbc>
+				<northbc>42.88679</northbc>
+				<southbc>41.187053</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>State or equivalent entity</themekey>
+				<themekey>Polygon</themekey>
+				<themekey>Census Tract</themekey>
+				<themekey>Tract</themekey>
+			</theme>
+			<place>
+				<placekt>INCITS.38-200x (R2004),INCITS.31-200x (R2007),INCITS.454-200x,INCITS 455-200x,INCITS 446-2008</placekt>
+				<placekey>United States</placekey>
+				<placekey>U.S.</placekey>
+				<placekey>State or Equivalent Entity</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>MA</placekey>
+				<placekey>25</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</useconst>
+		<Title_13_Restrictions>Yes, the data are free from Title 13 restrictions</Title_13_Restrictions>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>geo.tiger@census.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<Data_Set_Character_Set>8859part1</Data_Set_Character_Set>
+	<Data_Set_Language>eng</Data_Set_Language>
+	<dataqual>
+		<attracc>
+			<attraccr>Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+		</attracc>
+		<logic>The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.
+For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.</logic>
+		<complete>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+						<pubdate>Unpublished material</pubdate>
+						<title>Census MAF/TIGER database</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>201001</begdate>
+							<enddate>201007</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Publication Date</srccurr>
+				</srctime>
+				<srccitea>MAF/TIGER</srccitea>
+				<srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data. </procdesc>
+				<srcused>Census MAF/TIGER</srcused>
+				<procdate>2010</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>Federal Information Processing Standards (FIPS), ANSI, and feature names.</indspref>
+		<direct>Vector</direct>
+		<ptvctinf><esriterm Name="gisdata.mapc.Census2010_Tracts"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1472</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>North American Datum of 1983 in the 48 contiguous states, the District of Columbia, Alaska, Hawaii, Puerto Rico, the Virgin Islands of the United States, and the Pacific Island Areas.</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137</semiaxis>
+				<denflat>298257</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="gisdata.mapc.Census2010_Tracts">
+			<enttyp>
+				<enttypl>TRACT10.shp</enttypl>
+				<enttypd>2010 Census Census Tract State-based</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1472</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">objectid</attrlabl><attalias Sync="TRUE">objectid</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">STATE10</attrlabl><attalias Sync="TRUE">state10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COUNTY10</attrlabl><attalias Sync="TRUE">county10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TRACT10</attrlabl><attalias Sync="TRUE">tract10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CT10_ID</attrlabl><attalias Sync="TRUE">ct10_id</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>NAME10</attrlabl>
+				<attrdef>2010 Census census tract name, this is the census tract code
+                 converted to an integer or integer plus two-digit decimal if
+                 the last two characters of the code are not both zeros.</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Refer to the online census tract gazetteer file at URL:
+                      http://www.census.gov/geo/www/gazetteer/gazette.html</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">name10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ALAND10</attrlabl>
+				<attrdef>2010 Census land area (square meters)</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 to 9,999,999,999,999</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">aland10</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale></attr>
+			<attr>
+				<attrlabl>AWATER10</attrlabl>
+				<attrdef>2010 Census water area (square meters)</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 to 9,999,999,999,999</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">awater10</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale></attr>
+			<attr>
+				<attrlabl>INTPTLAT10</attrlabl>
+				<attrdef>2010 Census latitude of the internal point</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>00</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">intptlat10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>INTPTLON10</attrlabl>
+				<attrdef>2010 Census longitude of the internal point</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>00</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">intptlon10</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">AREA_SQFT</attrlabl><attalias Sync="TRUE">area_sqft</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">AREA_ACRES</attrlabl><attalias Sync="TRUE">area_acres</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">shape_leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">38</atprecis><attscale Sync="TRUE">8</attscale></attr><attr><attrlabl Sync="TRUE">st_area(shape)</attrlabl><attalias Sync="TRUE">st_area(shape)</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">st_length(shape)</attrlabl><attalias Sync="TRUE">st_length(shape)</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>geo.tiger@census.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>TGRSHP (compressed)</formname>
+					<filedec>PK-ZIP, version 1.93 A or higher</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.census.gov/geo/www/tiger</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>DVD-ROM (Only if offered offline)</offmedia>
+						<recfmt>ISO 9660</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>The online copy of the TIGER/Line files may be accessed without charge.</fees>
+			<ordering>To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger </ordering>
+		</stdorder>
+		<techpreq>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>20100507</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>geo.tiger@census.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<Metadata_Character_Set>8859part1</Metadata_Character_Set>
+		<Metadata_File_Identifier>tl_2010_25_tract10.shp.xml</Metadata_File_Identifier>
+		<Metadata_Language>eng</Metadata_Language>
+	</metainfo>
+	<Esri><CreaDate>20170703</CreaDate><CreaTime>10205900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20110208" Time="133619">Project tl_2010_25_tract10 F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tl_2010_25_tract10_proj.shp PROJCS['NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',200000.0],PARAMETER['False_Northing',750000.0],PARAMETER['Central_Meridian',-71.5],PARAMETER['Standard_Parallel_1',41.71666666666667],PARAMETER['Standard_Parallel_2',42.68333333333333],PARAMETER['Latitude_Of_Origin',41.0],UNIT['Meter',1.0]] # GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20110211" Time="114612">Clip tl_2010_25_tract10_proj tabblock10_proj_clip_diss F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp #</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110214" Time="104916">FeatureClassToFeatureClass tract10_proj_clip F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\CEN2K10_GEO.gdb CEN2K10_MA_TRACTS # "STATEFP10 "STATEFP10" true true false 2 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,STATEFP10,-1,-1;COUNTYFP10 "COUNTYFP10" true true false 3 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,COUNTYFP10,-1,-1;TRACTCE10 "TRACTCE10" true true false 6 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,TRACTCE10,-1,-1;GEOID10 "GEOID10" true true false 11 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,GEOID10,-1,-1;NAME10 "NAME10" true true false 7 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,NAME10,-1,-1;NAMELSAD10 "NAMELSAD10" true true false 20 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,NAMELSAD10,-1,-1;MTFCC10 "MTFCC10" true true false 5 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,MTFCC10,-1,-1;ALAND10 "ALAND10" true true false 14 Double 0 14 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,ALAND10,-1,-1;AWATER10 "AWATER10" true true false 14 Double 0 14 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,AWATER10,-1,-1;INTPTLAT10 "INTPTLAT10" true true false 11 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,INTPTLAT10,-1,-1;INTPTLON10 "INTPTLON10" true true false 12 Text 0 0 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,INTPTLON10,-1,-1;AREA_SQFT "AREA_SQFT" true true false 13 Double 2 12 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,AREA_SQFT,-1,-1;AREA_ACRES "AREA_ACRES" true true false 13 Double 4 12 ,First,#,F:\dmarrier\PROJECTS\CENSUS\CENSUS2011\MA_025\tracts\tract10_proj_clip.shp,AREA_ACRES,-1,-1" #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110321" Time="153834">FeatureClassToFeatureClass K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS "K:\DataServices\Datasets\U.S. Census and Demographics\Census 2010\PGDB_Census_2010_Redistricting.mdb" Census2010_Tracts # "STATE10 "STATEFP10" true true false 2 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,STATEFP10,-1,-1;COUNTY10 "COUNTYFP10" true true false 3 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,COUNTYFP10,-1,-1;TRACT10 "TRACTCE10" true true false 6 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,TRACTCE10,-1,-1;CT10_ID "GEOID10" true true false 11 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,GEOID10,-1,-1;NAME10 "NAME10" true true false 7 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,NAME10,-1,-1;ALAND10 "ALAND10" true true false 8 Double 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,ALAND10,-1,-1;AWATER10 "AWATER10" true true false 8 Double 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,AWATER10,-1,-1;INTPTLAT10 "INTPTLAT10" true true false 11 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,INTPTLAT10,-1,-1;INTPTLON10 "INTPTLON10" true true false 12 Text 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,INTPTLON10,-1,-1;AREA_SQFT "AREA_SQFT" true true false 8 Double 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,AREA_SQFT,-1,-1;AREA_ACRES "AREA_ACRES" true true false 8 Double 0 0 ,First,#,K:\DataServices\Datasets\Geographic\Census2010\CEN2K10_GEO.gdb\CEN2K10_MA_TRACTS,AREA_ACRES,-1,-1" #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110504" Time="113246">CopyFeatures "K:\DataServices\Datasets\U.S. Census and Demographics\Census 2010\PGDB_Census_2010_Redistricting.mdb\Census2010_Tracts" K:\DataServices\Datasets\Geographic\Census2010\Output\Census2010_Tracts.shp # 0 0 0</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20120923" Time="180617">CopyFeatures "K:\DataServices\Datasets\U.S. Census and Demographics\Spatial\Census2010\Output\Census2010_Tracts.shp" "Database Connections\gisdata@mapc.sde\gisdata.mapc.Census2010_Tracts" # 0 0 0</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20120923" Time="210021">ChangePrivileges 'Database Connections\gisdata@mapc.sde\gisdata.mapc.ATLNPROV_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.ACECS_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BATHYMGM_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BATHYMGM_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BEDROCKLITHOLOGY_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.bikeped_facilities';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BOUNDARY_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BOUNDARY_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BTHOS250_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.BWPMAJOR_PT';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CANOEACCESS_PT';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CANOETRIPS_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CENSUS2000_BLOCKGROUPS_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CENSUS2000_TRACTS_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.Census2010_BlockGroups';'Database Connections\gisdata@mapc.sde\gisdata.mapc.Census2010_Blocks';'Database Connections\gisdata@mapc.sde\gisdata.mapc.Census2010_Tracts';'Database Connections\gisdata@mapc.sde\gisdata.mapc.COMMUNITY_TYPES_1';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CONTOURS5KEAST_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CONTOURS5KWEST_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.COUNTIES_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.COUNTIES_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CSTZONE_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CTTOWNS_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CTTOWNS_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CZMSHEET_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CBRS_ARC';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CBRS_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CTPS_POLY';'Database Connections\gisdata@mapc.sde\gisdata.mapc.AUL_PT';'Database Connections\gisdata@mapc.sde\gisdata.mapc.CVP_PT' viewers GRANT #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20140620" Time="110101">ChangePrivileges 'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.abcran_pt';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.acecs_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.ACECS_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Agricultural_Activites';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Airports';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.anadfish_pt';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.anadfish_pt_dampresence';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.anadfish_pt_fishwayeffect';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.anadfish_pt_fishwaytype';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.anadfish_pt_mabarriertype';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.anadfish_pt_natbarriertype';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.AQSOLE_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.AQSOLE_POLY_old';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Aqueducts_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.AQUIFERS_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.AQUIFERS_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Arts_and_Culture_Points';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.assesspar_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.assessparnc_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.AtlanticProvinces_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.aul_pt';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BARRIERB_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BATHYMGM_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BATHYMGM_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BEDROCKLITHOLOGY_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat_aquatic_core';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat_forest';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat_priority_natural_communities';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat_species_of_conservation_concern';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat_vernal_pool';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_core_habitat_wetlands';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_critical_natural_landscape';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_critical_natural_landscape_aquatic_buffer';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_critical_natural_landscape_blocks';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_critical_natural_landscape_coastal_adaptation_analysis';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_critical_natural_landscape_tern_foraging';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.biomap2_critical_natural_landscape_wetland_buffer';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BM2_CH_Priority_natural_communities';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BM2_CH_Species_of_conservation_concern';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BM2_CNL_Coastal_adaptation_analysis';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Boston_Planning_Districts';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BOUNDARY_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BOUNDARY_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BTHOS250_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Building_Structures';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BUILDINGFP_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.BWPMAJOR_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.C21E_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CANOEACCESS_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CANOETRIPS_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CBRS_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CBRS_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census1990blockgroups_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census1990blocks_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census1990tiger_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000blockgroups_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000blocks_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000hydro_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000tiger_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000towns_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000towns_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2000tracts_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Census2010_BlockGroups';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Census2010_Blocks';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Census2010_Tracts';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2010blockgroups_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2010blocks_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.census2010tracts_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CHC_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.chna_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.chna_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.coast25k_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.COLLEGES_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.Combined_Sewer_Overflows';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.congress108_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.congress108_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.congress113_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.congress113_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.contours250k_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CONTOURS5KEAST_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CONTOURS5KWEST_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.COUNTIES_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.COUNTIES_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.counties_polym';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CPA_Projects_Status';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CSTZONE_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CTPS_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CTTOWNS_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CTTOWNS_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.cvp_pt';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_contemp_highwater';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_contemp_marsh';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_historic_highwater';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_imageframe';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_inferred_contemp';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_inferred_historic';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_jurisdiction';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_landlock';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_maj_pop1';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_maj_sta1';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_marshperimeter';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_publicway';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.czm_towns';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.CZMSHEET_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DAMS_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCR_Coastal_Structures';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCR_Crosswalks';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCR_Dams_pt';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCR_ROADS_TRAILS_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCR_ROADS_TRAILS_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCRPOOLS_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DCSITE98_PT';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.dep_wetlands_arc';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.dep_wetlands_poly';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DFWDISTRICTS_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DFWDISTRICTS_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.dor_la_pt3';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DSGA_ARC';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DSGA_POLY';'Database Connections\gisdata_mapc@new-sdevm.sde\gisdata.mapc.DWMSTATIONS_PT' viewers GRANT #</Process></lineage><itemProps><itemName Sync="TRUE">gisdata.mapc.Census2010_Tracts</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">Server=sdevm; Service=sde:postgresql:sdevm; Database=gisdata; User=mapc; Version=sde.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></itemLocation><nativeExtBox><westBL Sync="TRUE">33869.695500</westBL><eastBL Sync="TRUE">330838.819600</eastBL><southBL Sync="TRUE">777514.569900</southBL><northBL Sync="TRUE">959743.226600</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.3'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Massachusetts_Mainland_FIPS_2001&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,200000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,750000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-71.5],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,41.71666666666667],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.68333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,41.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26986]]&lt;/WKT&gt;&lt;XOrigin&gt;-36530900&lt;/XOrigin&gt;&lt;YOrigin&gt;-28803200&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26986&lt;/WKID&gt;&lt;LatestWKID&gt;26986&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits></coordRef></DataProperties><SyncDate>20160829</SyncDate><SyncTime>15153900</SyncTime><ModDate>20160829</ModDate><ModTime>15153900</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</envirDesc><dataLang><languageCode value="en" country="US"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">gisdata.mapc.Census2010_Tracts</resTitle><presForm><PresFormCd value="005"></PresFormCd></presForm></idCitation><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys><spatRpType><SpatRepTypCd value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-73.533245</westBL><eastBL Sync="TRUE">-69.898567</eastBL><northBL Sync="TRUE">42.888313</northBL><southBL Sync="TRUE">41.230345</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode value="en"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdChar><CharSetCd value="006"></CharSetCd></mdChar><distInfo><distFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="26986"></identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.6.2</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="gisdata.mapc.Census2010_Tracts"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1472</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20160829</mdDateSt></metadata>

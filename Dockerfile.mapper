@@ -1,0 +1,16 @@
+FROM python
+
+WORKDIR /usr/src/app
+
+RUN set -ex; \
+    \
+    apt-get update \
+    && apt-get install -y \
+      git \
+    ; \
+    git clone https://github.com/mapc/rental-listing-mapper . \
+    ; \
+    pip install \
+      pandas \
+      psycopg2 \
+      sqlalchemy 
