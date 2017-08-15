@@ -2,5 +2,6 @@
 
 .env.mapper
 
-volumes/csv/*
-volumes/output/*
+volumes/csv/*.csv
+volumes/output/*.csv
+volumes/output/*.txt
