@@ -1,4 +1,6 @@
 .DS_Store
 
+.env.mapper
+
 volumes/csv/*
 volumes/output/*

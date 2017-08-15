@@ -9,8 +9,12 @@ RUN set -ex; \
       git \
     ; \
     git clone https://github.com/mapc/rental-listing-mapper . \
+    && chmod +x map \
     ; \
     pip install \
       pandas \
       psycopg2 \
-      sqlalchemy 
+      sqlalchemy \
+      python-dotenv 
+
+COPY .env.mapper .env
