@@ -1,0 +1,23 @@
+FROM python
+
+WORKDIR /usr/src/app
+
+RUN set -ex; \
+    \
+    apt-get update \
+    && apt-get install -y \
+      git \
+    ; \
+    git clone https://github.com/mapc/rental-listing-geolocator . \
+    ; \
+    pip install \
+      boto \
+      s3fs \
+      pandas \
+      shapely \
+      botocore \
+      requests \
+      geopandas \
+      matplotlib 
+
+COPY .env.geolocator .env

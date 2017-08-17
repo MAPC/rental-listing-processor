@@ -23,6 +23,17 @@ services:
       - IN_GEO_NAME=170726_padmapper_sample_2.csv
 
 
+  geolocator:
+    build:
+      context: .
+      dockerfiler: Dockerfile.geolocator
+
+    volumes:
+      - ./volumes/csv:/opt/files
+
+    command: ['python', '-u', 'data-analysis.py']
+
+
   mapper:
     build:
       context: .
