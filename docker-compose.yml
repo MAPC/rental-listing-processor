@@ -31,7 +31,7 @@ services:
     volumes:
       - ./volumes/csv:/opt/files
 
-    command: ['python', '-u', 'data-analysis.py']
+    command: ['python', '-u', 'geolocation_validation.py']
 
     env_file:
       - ./.env.geolocator
