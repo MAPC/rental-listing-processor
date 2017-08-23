@@ -33,6 +33,9 @@ services:
 
     command: ['python', '-u', 'data-analysis.py']
 
+    env_file:
+      - ./.env.geolocator
+
 
   mapper:
     build:
