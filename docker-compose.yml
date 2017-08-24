@@ -19,8 +19,7 @@ services:
       - SPATIAL_SRC_PATH=/opt/spatial
       - OUT_FILE_PATH=/opt/output
       - IN_FILE_PATH=/opt/files
-      - IN_FILE_NAME=mapped.csv
-      - IN_GEO_NAME=170726_padmapper_sample_2.csv
+      - IN_FILE_NAME=8242017-mapped.csv
 
 
   geolocator:
@@ -50,4 +49,4 @@ services:
 
     environment:
       - OUT_FILE_PATH=/opt/files
-      - OUT_FILE_NAME=mapped.csv
+      - OUT_FILE_NAME=8242017-mapped.csv
