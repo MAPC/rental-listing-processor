@@ -4,5 +4,6 @@
 .env.geolocator
 
 volumes/csv/*.csv
+volumes/csv/**/*.csv
 volumes/output/*.csv
 volumes/output/*.txt

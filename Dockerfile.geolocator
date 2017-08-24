@@ -1,4 +1,4 @@
-FROM python
+FROM python:2.7
 
 WORKDIR /usr/src/app
 
@@ -11,13 +11,9 @@ RUN set -ex; \
     git clone https://github.com/mapc/rental-listing-geolocator . \
     ; \
     pip install \
-      boto \
-      s3fs \
+      scipy \
       pandas \
       shapely \
-      botocore \
       requests \
       geopandas \
       matplotlib 
-
-COPY .env.geolocator .env
