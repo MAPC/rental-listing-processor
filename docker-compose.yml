@@ -8,9 +8,9 @@ services:
       dockerfile: Dockerfile.cleaner
 
     volumes:
-      - ./volumes/csv/:/opt/files
-      - ./volumes/output:/opt/output
-      - ./volumes/spatial:/opt/spatial
+      - ./volumes/cleaner/csv/:/opt/files
+      - ./volumes/cleaner/output:/opt/output
+      - ./volumes/cleaner/spatial:/opt/spatial
 
     command: ["Rscript", "main.R"]
 
@@ -29,7 +29,8 @@ services:
       dockerfile: Dockerfile.geolocator
 
     volumes:
-      - ./volumes/csv:/opt/files
+      - ./volumes/geolocator/data:/opt/files
+      - ./volumes/geolocator/output:/opt/output
 
     command: ['python', '-u', 'geolocation_validation.py']
 
@@ -43,7 +44,7 @@ services:
       dockerfile: Dockerfile.mapper
 
     volumes:
-      - ./volumes/csv:/opt/files
+      - ./volumes/cleaner/csv:/opt/files
 
     command: ["./map"]
 

@@ -3,7 +3,13 @@
 .env.mapper
 .env.geolocator
 
-volumes/csv/*.csv
-volumes/csv/**/*.csv
-volumes/output/*.csv
-volumes/output/*.txt
+volumes/cleaner/csv/*.csv
+volumes/cleaner/output/*.csv
+volumes/cleaner/output/*.txt
+
+volumes/geolocator/data/*.csv
+volumes/geolocator/data/worker_data/*.csv
+volumes/geolocator/data/worker_processed/*.csv
+volumes/geolocator/output/analysis/*.csv
+volumes/geolocator/output/analysis/*.xlsx
+volumes/geolocator/output/charts/*.png
