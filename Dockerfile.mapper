@@ -14,7 +14,4 @@ RUN set -ex; \
     pip install \
       pandas \
       psycopg2 \
-      sqlalchemy \
-      python-dotenv 
-
-COPY .env.mapper .env
+      sqlalchemy 

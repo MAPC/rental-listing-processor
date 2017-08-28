@@ -3,6 +3,8 @@
 .env.mapper
 .env.geolocator
 
+src/
+
 volumes/cleaner/csv/*.csv
 volumes/cleaner/output/*.csv
 volumes/cleaner/output/*.txt

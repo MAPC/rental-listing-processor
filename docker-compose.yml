@@ -18,8 +18,9 @@ services:
       - CODE_PATH=/usr/src/app
       - SPATIAL_SRC_PATH=/opt/spatial
       - OUT_FILE_PATH=/opt/output
+      - DEBUG_FILE=debug.csv
       - IN_FILE_PATH=/opt/files
-      - IN_FILE_NAME=8242017-mapped.csv
+      - IN_FILE_NAME=8282017-mapped.csv
 
 
   geolocator:
@@ -47,6 +48,5 @@ services:
 
     command: ["./map"]
 
-    environment:
-      - OUT_FILE_PATH=/opt/files
-      - OUT_FILE_NAME=8242017-mapped.csv
+    env_file:
+      - ./.env.mapper
