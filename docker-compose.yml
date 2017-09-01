@@ -32,7 +32,7 @@ services:
       - ./volumes/geolocator/data:/opt/files
       - ./volumes/geolocator/output:/opt/output
 
-    command: ['python', '-u', 'geolocation_validation.py']
+    command: ['python', '-u', 'data_analysis.py']
 
     env_file:
       - ./.env.geolocator

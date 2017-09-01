@@ -7,10 +7,12 @@ RUN set -ex; \
     apt-get update \
     && apt-get install -y \
       git \
+      libspatialindex-dev \
     ; \
     git clone https://github.com/mapc/rental-listing-geolocator . \
     ; \
     pip install \
+      rtree \
       scipy \
       pandas \
       shapely \
