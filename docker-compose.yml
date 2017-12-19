@@ -20,7 +20,7 @@ services:
       - OUT_FILE_PATH=/opt/output
       - DEBUG_FILE=debug.csv
       - IN_FILE_PATH=/opt/files
-      - IN_FILE_NAME=8282017-mapped.csv
+      - IN_FILE_NAME=mapped.csv
 
 
   geolocator:

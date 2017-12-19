@@ -13,7 +13,7 @@ RUN set -ex; \
     ; \
     pip install \
       rtree \
-      scipy \
+      'scipy==0.19.1' \
       pandas \
       shapely \
       requests \
