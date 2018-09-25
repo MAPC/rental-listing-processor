@@ -37,13 +37,16 @@ git clone https://github.com/MAPC/rental-listing-processor
 
 #### Setup
 
-There are two environment files that are loaded into their respective containers, 
-one of which you must add database information to. The only container that does
-any communication with the database is the Mapper (I will get to what this container
-does below).
+There is one environment files that is loaded into the Mapper container which you must 
+add database information to. The only container that does any communication with the 
+database is the Mapper (I will get to what this container does below).
+
+The environments for the other containers are written into the _docker-compose.yml_ file.
+The reason we use an environment file for the Mapper is because it requires sensitive
+information that we don't want to mistakenly commit; the other containers don't require
+such sensitive information and therefore can have their environments committed. 
 
 ```sh
-cp .env.geolocator.template .env.geolocator
 cp .env.mapper.template .env.mapper
 vim .env.mapper
 ```
