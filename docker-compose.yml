@@ -34,9 +34,16 @@ services:
 
     command: ['python', '-u', 'geolocation_validation.py']
 
-    env_file:
-      - ./.env.geolocator
-
+    environment:
+      - data_path=/opt/files
+      - output_path=/opt/output
+      - chart_path=/opt/output/charts
+      - analysis_path=/opt/output/analysis
+      - worker_folder=/opt/files/worker_data
+      - worker_proc=/opt/files/worker_processed
+      - mapc_path=CSV/mapc
+      - csv_path=CSV
+      - point_path=Points
 
   mapper:
     build:
