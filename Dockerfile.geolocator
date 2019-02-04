@@ -7,6 +7,10 @@ RUN set -ex; \
     apt-get update \
     && apt-get install -y \
       git \
+      gdal-bin \
+      libgdal20 \
+      libgdal-dev \
+      python-gdal \
       libspatialindex-dev \
     ; \
     git clone https://github.com/mapc/rental-listing-geolocator . \

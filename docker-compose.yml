@@ -29,12 +29,14 @@ services:
       dockerfile: Dockerfile.geolocator
 
     volumes:
+      - ../rental-listing-geolocator:/usr/src/app
       - ./volumes/geolocator/data:/opt/files
       - ./volumes/geolocator/output:/opt/output
 
     command: ['python', '-u', 'geolocation_validation.py']
 
     environment:
+      - GDAL_DATA=/usr/share/gdal/2.1
       - data_path=/opt/files
       - output_path=/opt/output
       - chart_path=/opt/output/charts
