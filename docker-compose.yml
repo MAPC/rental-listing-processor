@@ -29,7 +29,6 @@ services:
       dockerfile: Dockerfile.geolocator
 
     volumes:
-      - ../rental-listing-geolocator:/usr/src/app
       - ./volumes/geolocator/data:/opt/files
       - ./volumes/geolocator/output:/opt/output
 
