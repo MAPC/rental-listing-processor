@@ -6,21 +6,27 @@ from os import path, system
 from datetime import datetime
 from random import getrandbits
 from tempfile import gettempdir
-from shutil import copy, copy_tree, make_archive, rmtree
+from shutil import copy, copytree, make_archive, rmtree
 
 
 # Define run steps for each processing component
 
 def run_mapper():
+    print("[--] Running Mapper")
+
     if not system('docker-compose up mapper'):
-        print('Mapper failed')
+        print('[!!] Mapper failed')
         exit(1)
 
 
 def run_cleaner():
+    print("[--] Running Cleaner")
+
     if not system('docker-compose up cleaner'):
-        print('Cleaner failed')
+        print('[!!] Cleaner failed')
         exit(1)
+
+    print("[--] Preparing cleaned data for geolocation")
 
     cwd = path.dirname(path.realpath(__file__))
 
@@ -34,15 +40,19 @@ def run_cleaner():
     try:
         copy(src, dest)
     except Exception as e:
-        print("Could not copy cleaned listings for geolocator")
+        print("[!!] Could not copy cleaned listings for geolocator")
         print(e)
         exit(1)
 
 
 def run_geolocator():
+    print("[--] Running Geolocator")
+
     if not system('docker-compose up geolocator'):
-        print('Geolocator failed')
+        print('[!!] Geolocator failed')
         exit(1)
+
+    print("[--] Bundling output")
 
     workdir = path.join(gettempdir(), '%0x-rla-out' % getrandbits(40))
     workdir_cleaner = path.join(workdir, 'cleaner')
@@ -54,12 +64,12 @@ def run_geolocator():
         mkdir(workdir_cleaner, dir_perms)
         mkdir(workdir_geolocator, dir_perms)
     except OSError:
-        print("Could not create %s. You will have to bundle your own output." % workdir)
+        print("[!!] Could not create %s. You will have to bundle your own output." % workdir)
         exit(1)
 
     cwd = path.dirname(path.realpath(__file__))
-    copy_tree(path.join(cwd, 'volumes', 'cleaner', 'output'), workdir_cleaner) 
-    copy_tree(path.join(cwd, 'volumes', 'geolocator', 'output'), workdir_geolocator) 
+    copytree(path.join(cwd, 'volumes', 'cleaner', 'output'), workdir_cleaner) 
+    copytree(path.join(cwd, 'volumes', 'geolocator', 'output'), workdir_geolocator) 
 
     env = {}
     with open(path.join(cwd, ".env.mapper")) as fd:
@@ -74,7 +84,7 @@ def run_geolocator():
     try:
         rmtree(workdir)
     except OSError:
-        print("Could not delete tempdir %s. Restarting machine will clear all files in temp directory." % workdir)
+        print("[!!] Could not delete tempdir %s. Restarting machine will clear all files in temp directory." % workdir)
 
 
 # Run processor
@@ -82,3 +92,5 @@ def run_geolocator():
 run_mapper()
 run_cleaner()
 run_geolocator()
+
+print("[--] Rental Listings Processed")
