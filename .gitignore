@@ -1,9 +1,8 @@
 .DS_Store
 
 .env.mapper
-.env.geolocator
 
-src/
+*.zip
 
 volumes/cleaner/csv/*.csv
 volumes/cleaner/output/*.csv
