@@ -35,7 +35,7 @@ services:
     command: ['python', '-u', 'geolocation_validation.py']
 
     environment:
-      - GDAL_DATA=/usr/share/gdal/2.1
+      - GDAL_DATA=/usr/share/gdal
       - data_path=/opt/files
       - output_path=/opt/output
       - chart_path=/opt/output/charts
