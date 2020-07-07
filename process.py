@@ -86,7 +86,11 @@ def run_geolocator():
                 name, var = line.split('=')
                 env[name.strip()] = str(var).strip()
 
-    archive_name = 'rental-listings_Q%s-%s' % (env['MAPPER_QUARTER'], env['MAPPER_YEAR'])
+    if env['MAPPER_MONTH'] is not None:
+        archive_name = 'rental-listings_%s-%s' % (env['MAPPER_MONTH'], env['MAPPER_YEAR'])
+    else:
+        archive_name = 'rental-listings_Q%s-%s' % (env['MAPPER_QUARTER'], env['MAPPER_YEAR'])
+
     tempdir = path.join(gettempdir(), 'rla-out-%0x' % getrandbits(40))
     workdir = path.join(tempdir, archive_name)
     workdir_cleaner = path.join(workdir, 'cleaner')
@@ -98,8 +102,8 @@ def run_geolocator():
         print("[!!] Could not create %s. You will have to bundle your own output." % workdir)
         exit(1)
 
-    copytree(path.join(cwd(), 'volumes', 'cleaner', 'output'), workdir_cleaner) 
-    copytree(path.join(cwd(), 'volumes', 'geolocator', 'output'), workdir_geolocator) 
+    copytree(path.join(cwd(), 'volumes', 'cleaner', 'output'), workdir_cleaner)
+    copytree(path.join(cwd(), 'volumes', 'geolocator', 'output'), workdir_geolocator)
 
     make_archive(path.join(cwd(), archive_name), 'zip', tempdir)
 
