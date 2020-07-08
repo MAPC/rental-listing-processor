@@ -86,7 +86,7 @@ def run_geolocator():
                 name, var = line.split('=')
                 env[name.strip()] = str(var).strip()
 
-    if MAPPER_MONTH in env:
+    if 'MAPPER_MONTH' in env:
         archive_name = 'rental-listings_%s-%s' % (env['MAPPER_MONTH'], env['MAPPER_YEAR'])
     else:
         archive_name = 'rental-listings_Q%s-%s' % (env['MAPPER_QUARTER'], env['MAPPER_YEAR'])
