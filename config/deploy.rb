@@ -24,7 +24,7 @@ set :deploy_to, "/opt/rental-listing-processor"
 append :linked_files, ".env.mapper"
 
 # Default value for linked_dirs is []
-append :linked_dirs, "files"
+append :linked_dirs, "files", "volumes"
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
